@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Student{
     int RollNo;
     String Name;
@@ -28,6 +27,9 @@ class Student{
         else if(Marks>=60 && Marks<=69){
             return 'D';
         }
+        else if(Marks>=50 && Marks<=59){
+            return 'E';
+        }
         else{
             return 'F';
         }
@@ -39,6 +41,7 @@ class Student{
         System.out.println("Course: "+this.Course);
         System.out.println("Marks: "+this.Marks);
         System.out.println("Grade: "+this.Grade);
+        System.out.println("_________________________________");
     }
 }
 
@@ -49,8 +52,8 @@ public class StudentManagementSystem{
         int choice;
         do{
             DisplayChoice();
+            System.out.print("Enter Choice: ");
             choice=scan.nextInt();
-            scan.nextLine();
             switch(choice){
                 case 1:
                     Create();
@@ -59,56 +62,57 @@ public class StudentManagementSystem{
                     DisplayAll();
                     break;
                 case 3:
-                    System.out.println("Exited...");
+                    System.out.println("Exited......");
                     break;
                 default:
-                    System.out.println("Invalid choice");
+                    System.out.println("Wrong choice");
             }
         }while(choice!=3);
     }
 
     public static void DisplayChoice(){
+
         System.out.println("1.Create student");
         System.out.println("2.Display all students");
         System.out.println("3.Exit");
     }
 
     public static void Create(){
+
         System.out.print("Enter Roll No: ");
         int RollNo=scan.nextInt();
         scan.nextLine();
 
-        System.out.print("Enter Name: ");
-        String Name = scan.nextLine();
+        System.out.print("Enter student's name: ");
+        String Name=scan.nextLine();
 
-        System.out.print("Enter Course: ");
-        String Course = scan.nextLine();
+        System.out.print("Enter student's course: ");
+        String Course=scan.nextLine();
 
         double Marks;
         while(true){
-            System.out.print("Enter Marks: ");
-            Marks = scan.nextDouble();
+            System.out.print("Enter student's total marks: ");
+            Marks=scan.nextDouble();
             scan.nextLine();
-
-            if(Marks<0 && Marks>100){
-                System.out.println("Invalid Marks");
+            if(Marks<0 || Marks>100){
+                System.out.println("Invalid Marks......");
             }
             else{
                 break;
             }
         }
+
         Student S = new Student(RollNo,Name,Course,Marks);
         students.add(S);
     }
 
     public static void DisplayAll(){
+
         if(students.isEmpty()){
-            System.out.println("No data founded");
+            System.out.println("No data of students founded......");
         }
-        else{
-            for(Student X:students){
-                X.Display();
-            }
+        for(Student X:students){
+            X.Display();
         }
     }
 }
