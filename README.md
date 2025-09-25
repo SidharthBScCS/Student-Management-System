@@ -27,3 +27,12 @@
 - Create() is used to create a new student with RollNo,Name,Course & Marks.It also validates whether the Marks inputed by the user are within the range (0-100).
 - DisplayAll() is used to display all the students created by the user. It uses s for-loop to go through the ArrayList<Student> students and prints it.
 - DisplayChoice() is used to give options to the user using Switch-case.
+
+### Learning Outcome
+#### By doing this assigned I learned 
+- The principles of OOP in Java.
+- Encapsulation
+- Using ArrayList to store multiple records.
+- Input validation
+- Menu-Driven Programs
+- Practical Java Skills
