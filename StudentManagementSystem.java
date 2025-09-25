@@ -1,3 +1,5 @@
+/* Coded by | Sidharth Krishna | 2401720003 | BSc Computer Science | 3rd Semester | Java | Lab Assignment 1 |
+
 import java.util.*;
 class Student{
     int RollNo;
@@ -116,3 +118,4 @@ public class StudentManagementSystem{
         }
     }
 }
+
