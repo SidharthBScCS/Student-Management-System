@@ -51,6 +51,7 @@
 - Step 5 : Open terminal 
 - Step 6 : Type ' javac StudentManagementSystem.java '
 - Step 7 : Type ' java StudentManagementSystem ' 
+- OR Clicking on any existing CodeSpace.
 
 
 
