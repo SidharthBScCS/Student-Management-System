@@ -8,12 +8,6 @@
 
 ---
 
-## Subject Information
-- **Subject:** Introduction to Java  
-- **Task:** Lab Assignment 1  
-
----
-
 ### Code Structure
 
 #### Student Class
