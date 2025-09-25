@@ -37,4 +37,11 @@
 - Menu-Driven Programs
 - Practical Java Skills
 
+### Sample Output 
+<img width="1356" height="721" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/bf8235f8-0b6a-4d4c-a3b5-43db4e90ff57" />
+
+<img width="1366" height="725" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/4b71c068-725a-4c56-8c97-a58f51350f6d" />
+
+
+
 ### Click here to see the file -> https://github.com/SidharthBScCS/Student-Management-System/blob/main/StudentManagementSystem.java
