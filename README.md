@@ -20,7 +20,7 @@
 - Student class stores individual student details the RollNo,Name,Course,Marks & Grade
 - There is a constructor which initializes the student data and a function CalcGrade() for calculating the grade and another function for Display() for displaying the details of eaxh student.
 
--- **StudentManagementSystem Class**
+- **StudentManagementSystem Class**
 - It contains the main() method
 - It usese ArrayList<Student> to store multiple student details.
 - It also provides a menu so that the user can select which choice he/she wants like Create() for creating a new student and DisplayAll() for displaying all the students.
