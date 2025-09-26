@@ -12,7 +12,7 @@
 
 #### Student Class
 - Student class stores individual student details the RollNo,Name,Course,Marks & Grade
-- There is a constructor which initializes the student data and a function CalcGrade() for calculating the grade and another function for Display() for displaying the details of eaxh student.
+- There is a constructor which initializes the student data and a function CalcGrade() for calculating the grade and another function Display() for displaying the details of each student.
 
 #### StudentManagementSystem Class
 - It contains the main() method
