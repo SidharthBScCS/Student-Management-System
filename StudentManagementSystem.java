@@ -43,7 +43,6 @@ class Student{
         System.out.println("Course: "+this.Course);
         System.out.println("Marks: "+this.Marks);
         System.out.println("Grade: "+this.Grade);
-        System.out.println("_________________________________");
     }
 }
 
@@ -118,5 +117,6 @@ public class StudentManagementSystem{
         }
     }
 }
+
 
 
